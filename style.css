@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: #35a29e7a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.panel {
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.ptop {
+  width: 100%;
+  height: 80px;
+  background-color: #33bbc5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30%;
+}
+.elem {
+  display: flex;
+  align-items: center;
+}
+h4 {
+  padding: 10px;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 700;
+}
+.box {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+#pbtm {
+  width: 100%;
+  height: calc(100% - 80px);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 10px;
+}
+.bubble {
+  height: 40px;
+  width: 40px;
+  background-color: #3eb7af;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+}
+.bubble:hover {
+  background-color: #21716b;
+}
+.panel2 {
+  position: absolute;
+  top: 20%;
+  align-items: center;
+  width: 80%;
+  height: 70%;
+  background-color: rgb(250, 247, 247);
+  border-radius: 10px;
+  display: none;
+}
+.final {
+  margin-top: 10%;
+  text-align: center;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #33bbc5;
+  line-height: 20px;
+}
